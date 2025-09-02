@@ -1,0 +1,59 @@
+' {$STAMP BS2}
+' {$PBASIC 2.5}
+' {$PORT COM7}
+'Ishraq Alam's Boe-Bot
+
+COUNTER VAR Word
+  'Start at A on purple line
+  'Going forward initially
+  FOR COUNTER = 1 TO 420
+    PULSOUT 12, 850
+    PULSOUT 13, 650
+  NEXT
+
+  'Rotate towards the ball
+  FOR COUNTER = 1 TO 198
+    PULSOUT 12, 850
+    PULSOUT 13, 850
+
+  NEXT
+
+  'Pause
+  FOR COUNTER = 2 TO 150
+    PAUSE 2
+  NEXT
+
+  'Going towards the ball holder
+   FOR COUNTER = 1 TO 135
+
+   PULSOUT 12, 850
+   PULSOUT 13, 650
+  NEXT
+
+  'Pause after reaching ball and grabs ball
+  FOR COUNTER = 1 TO 150
+    PULSOUT 14, 175
+    PAUSE 2
+
+  NEXT
+
+  'Goes backward
+  FOR COUNTER = 1 TO 500
+    PULSOUT 12, 650
+    PULSOUT 13, 850
+    PULSOUT 14, 175
+  NEXT
+
+  'Rotates toward yellow scoring
+  FOR COUNTER = 1 TO 158
+    PULSOUT 12, 650
+    PULSOUT 13, 650
+    PULSOUT 14, 175
+  NEXT
+
+  'Moves toward yellow scoring
+  FOR COUNTER = 1 TO 2000
+    PULSOUT 12, 792
+    PULSOUT 13, 650
+    PULSOUT 14, 175
+  NEXT

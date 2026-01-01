@@ -8,3 +8,5 @@ A rover programmed with PBASIC that functions autonomously, with no user input.
 + Closes 3D-printed rotating arm and collects ball
 + Rotates toward scoring hole and traverses through rough terrain
 + Pushes ball into scoring hole and returns to collect second ball to repeat process
+
+![Autonomous Ball Collection Rover Photo](ABCR_Photo)

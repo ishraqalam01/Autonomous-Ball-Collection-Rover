@@ -9,4 +9,4 @@ A rover programmed with PBASIC that functions autonomously, with no user input.
 + Rotates toward scoring hole and traverses through rough terrain
 + Pushes ball into scoring hole and returns to collect second ball to repeat process
 
-![Autonomous Ball Collection Rover Photo](ABCR_Photo)
+![Autonomous Ball Collection Rover Photo](ABCR_Photo.jpg)
